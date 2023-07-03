@@ -2,11 +2,11 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  rootNotionPageId: '63075321ae664f7fb3d475fe496898c0',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: 'fde5ac74eea345278f004482710e1af3',
+  rootNotionSpaceId: '63075321ae664f7fb3d475fe496898c0',
 
   // basic site info (required)
   name: 'Transitive Bullshit',
@@ -35,7 +35,7 @@ export default siteConfig({
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
   // environment variables. see the readme for more info
-  isRedisEnabled: true,
+  isRedisEnabled: false,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
@@ -48,7 +48,7 @@ export default siteConfig({
   pageUrlOverrides: null,
 
   pageUrlAdditions: {
-    '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
+    '/the-social-audio-revolution': '63075321ae664f7fb3d475fe496898c0'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -57,11 +57,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: '8d0062776d0c4afca96eb1ace93a7538'
+      pageId: '63075321ae664f7fb3d475fe496898c0'
     },
     {
       title: 'Contact',
-      pageId: '9a7ddf2973444067bbc5ce0a4e0e0058'
+      pageId: '63075321ae664f7fb3d475fe496898c0'
     }
   ]
 })
