@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: '63075321ae664f7fb3d475fe496898c0',
+  rootNotionSpaceId: null,
 
   // basic site info (required)
   name: 'Transitive Bullshit',
